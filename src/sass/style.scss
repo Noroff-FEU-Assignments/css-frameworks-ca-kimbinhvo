@@ -1,0 +1,24 @@
+$colour-primary: #EFEFEF;
+$colour-secondary: #E92A6C;
+$colour-tertiary: #000000;
+$colour-text:#848C95;
+
+
+$theme-colors: (
+    "primary": $colour-primary,
+    "secondary": $colour-secondary,
+);
+
+$headings-color: $colour-secondary;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", sans-serif;
+
+$body-bg: #EFEFEF;
+$body-color: $colour-text;
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/layout";
+@import "./partials/home";
+@import "./partials/accordions";
+@import "./partials/cards";

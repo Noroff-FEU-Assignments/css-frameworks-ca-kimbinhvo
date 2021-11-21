@@ -1,0 +1,68 @@
+// TABS
+.tab-content {
+    background-color: white;
+    padding: 1em;
+    min-height: 150px;
+    border-radius: 6px;
+    margin-top: -16px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: $colour-text;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.nav-tabs .nav-link {
+    color: $colour-secondary;
+}
+
+.d-none {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+//ACCORDIONS
+
+.accordions {
+    width: 90%;
+    margin: auto;
+}
+
+.accordion-button {
+    color: $colour-secondary;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $colour-secondary;
+    background-color: #ffffff;
+    border-color: $colour-secondary;
+}
+
+//IMAGES
+
+.img-tab {
+    width: 100%;
+    margin: auto;
+}
+
+// ICONS
+img, svg {
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.tab-icons {
+    color: black;
+}
+
+.accordions-icons {
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
